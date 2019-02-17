@@ -38,7 +38,6 @@ class Main extends Component {
 
   AddRepository = () => {
     if (!this.state.repoNameInput.length) return;
-
     this.props.addFavoriteRequest(this.state.repoNameInput);
   };
 
